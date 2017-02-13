@@ -1,2 +1,2 @@
-FROM elasticsearch:2.3
+FROM elasticsearch:5.2
 RUN cd /usr/share/elasticsearch/ && bin/plugin install analysis-kuromoji
